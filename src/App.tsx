@@ -10,13 +10,18 @@ const  App = () => {
         <C.Header>
           <C.HeaderText>Sistema Financeiro</C.HeaderText>
         </C.Header>
+        <C.Body>
+          {/*Area  de info. */}
+
+          {/*Area  de insert info. */}
+
+          {/*Tabela de itens. */}
+
+
+            
+        </C.Body>
       </C.Container>
       
-    
-    
-    
-     
-    
   )
 }
 
