@@ -4,6 +4,7 @@ import {Item} from "./types/Item";
 import {Category} from "./types/Category";
 import {items} from "./data/items";
 import {categories} from "./data/categories";
+import {getCurrentMonth} from "./helpers/dateFilter";
 
 
 
@@ -12,11 +13,15 @@ const  App = () => {
 
 
   const [list, setLIst] = useState<Item[]>(items);
-  
-  const [currentMonth, setCurrentMonth] = useState();
+  const [filteredList, setFilteredList] = useState();
+  const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
 
   return (
-      <C.Container>
+
+    <>
+    <C.Global/>
+
+    <C.Container>
         <C.Header>
           <C.HeaderText>Sistema Financeiro</C.HeaderText>
         </C.Header>
@@ -27,11 +32,11 @@ const  App = () => {
 
           {/*Tabela de itens. */}
 
-
             
         </C.Body>
       </C.Container>
       
+  </>
   )
 }
 
