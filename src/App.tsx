@@ -6,6 +6,7 @@ import {Category} from "./types/Category";
 import {categories} from "./data/categories";
 import {getCurrentMonth, filterListByMonth} from "./helpers/dateFilter";
 import {TableArea} from "./components/TableArea/index"
+import Logo from "../src/assets/financa.png"
 
 
 
@@ -31,7 +32,10 @@ const  App = () => {
 
     <C.Container>
         <C.Header>
-          <C.HeaderText>Sistema Financeiro</C.HeaderText>
+          <C.Image/>          
+          <C.HeaderText>
+            Sistema Financeiro
+            </C.HeaderText>
         </C.Header>
         <C.Body>
           {/*Area  de info. */}
