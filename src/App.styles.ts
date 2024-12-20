@@ -34,8 +34,6 @@ export const Image = styled.div`
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat ;
-
-
  
 `
 export const HeaderText = styled.h1 `   
