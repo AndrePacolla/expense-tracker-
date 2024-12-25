@@ -43,7 +43,6 @@ const  App = () => {
           {/*Area  de insert info. */}
 
           <TableArea list={filteredList}/>
-
             
         </C.Body>
       </C.Container>

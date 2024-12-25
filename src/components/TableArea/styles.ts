@@ -4,12 +4,12 @@ import styled from "styled-components";
 export const Table = styled.table`
         width: 100%;
         padding: 20px;
-        border: 2px solid ;
+        border: 2px solid rgb(200, 191, 191) ;
         border-radius: 10px;
         margin-top: 20px;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        background-color:rgba(250, 237, 57, 0.67) ;
+        background-color:rgba(250, 237, 57, 0.48) ;
 
 `;
 
