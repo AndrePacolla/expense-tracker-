@@ -27,7 +27,7 @@ export const Header = styled.div `
 
 export const Image = styled.div`
   margin-top: 12px; 
-  margin-left:20px;
+  margin-left:45px;
   width: 125px;
   height: 125px;
   background-image: url(${Logo});
@@ -38,8 +38,9 @@ export const Image = styled.div`
 `
 export const HeaderText = styled.h1 `   
     flex: 1;
-    font-size: 50px;
     color: white;
+    margin-right: 170px;
+    font-size: 50px;
     padding-top:30px;
     
 `;

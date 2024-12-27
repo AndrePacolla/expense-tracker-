@@ -6,13 +6,12 @@ import {Category} from "./types/Category";
 import {categories} from "./data/categories";
 import {getCurrentMonth, filterListByMonth} from "./helpers/dateFilter";
 import {TableArea} from "./components/TableArea/index"
-import Logo from "../src/assets/financa.png"
-
+import Logo from "../src/assets/financa.png";
+import { InfoArea } from "./components/Info Area";
 
 
 
 const  App = () => {
-
 
   const [list, setLIst] = useState<Item[]>(items);
   const [filteredList, setFilteredList] = useState<Item[]>([]);
@@ -35,10 +34,11 @@ const  App = () => {
           <C.Image/>          
           <C.HeaderText>
             Sistema Financeiro
-            </C.HeaderText>
+          </C.HeaderText>
         </C.Header>
         <C.Body>
-          {/*Area  de info. */}
+          
+          <InfoArea/>
 
           {/*Area  de insert info. */}
 

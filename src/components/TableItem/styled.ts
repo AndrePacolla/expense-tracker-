@@ -9,10 +9,10 @@ export const TableColumn = styled.td`
 export const Category = styled.div<{color: string}>`
 
     display: inline-block;
+    color: #fff;
     padding: 5px 10px;
-    background-color: ${props => props.color};
     border-radius: 8px;
-    color: #fff
+    background-color: ${props => props.color};
 
 `;
 
