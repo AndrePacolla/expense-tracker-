@@ -13,20 +13,21 @@ export const Container = styled.div`
 
 export const MonthArea = styled.div`
     flex:1;
-
-
+    display: flex;
+    align-items: center;
 `;
 
 export const MonthArrow = styled.div`
-
-
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
 `;
 export const MonthTitle = styled.div`
-
-
+    flex: 1;
+    text-align: center;
 `;
 export const ResumeArea = styled.div`
-flex: 2;
+    flex: 2;
 
 
 `;
