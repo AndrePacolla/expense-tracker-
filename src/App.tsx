@@ -37,8 +37,8 @@ const  App = () => {
           </C.HeaderText>
         </C.Header>
         <C.Body>
-          
-          <InfoArea/>
+
+          <InfoArea currentMonth={currentMonth}/>
 
           {/*Area  de insert info. */}
 

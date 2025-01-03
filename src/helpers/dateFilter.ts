@@ -4,7 +4,9 @@ import {Item} from "../types/Item"
 
 export const getCurrentMonth = () => {
     let now = new Date();
-    return `${now.getFullYear()} - ${now.getMonth()+1}`;
+    let month = now.getMonth()+1;
+
+    return `${now.getFullYear()} - ${addZeroToDate(month)}`;
 };
 
 export const filterListByMonth = (list: Item[], date: string ): Item[] => {
@@ -32,3 +34,11 @@ export const formatDate = (date: Date): string => {
 };
 
 const addZeroToDate  = (n: number) => n < 10 ? `0${n}` : `${n}`;
+
+
+export const formatCurrentMonth = (currentMonth: string): string => {
+    let [year , month] = currentMonth.split("-");
+    let months = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+
+
+}

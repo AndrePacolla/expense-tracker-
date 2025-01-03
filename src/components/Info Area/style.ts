@@ -18,8 +18,9 @@ export const MonthArea = styled.div`
 `;
 
 export const MonthArrow = styled.div`
+    width: 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 29px;
     cursor: pointer;
 `;
 export const MonthTitle = styled.div`
@@ -28,6 +29,7 @@ export const MonthTitle = styled.div`
 `;
 export const ResumeArea = styled.div`
     flex: 2;
+    display: flex;
 
 
 `;
