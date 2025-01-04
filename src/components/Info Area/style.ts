@@ -25,11 +25,11 @@ export const MonthArrow = styled.div`
 `;
 export const MonthTitle = styled.div`
     flex: 1;
+    font-size: 19px;
     text-align: center;
+    font-weight: bold;
 `;
 export const ResumeArea = styled.div`
     flex: 2;
     display: flex;
-
-
 `;
