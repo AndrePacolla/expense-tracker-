@@ -14,10 +14,14 @@ export const InfoArea = ({currentMonth, onMonthChange}: Props) => {
         let currentDate = new Date(parseInt(year), parseInt(month) -1, 1);// aqui ja defini 
         currentDate.setMonth(currentDate.getMonth() -1); // aqui pego mes definido e diminuo
         onMonthChange(`${currentDate.getFullYear()} - ${currentDate.getMonth() +1}`);
-        
     };
 
-    const handleNextMonth = () => {};
+    const handleNextMonth = () => {
+        let [year, month] = currentMonth.split("-");
+        let currentDate = new Date(parseInt(year), parseInt(month) -1, 1);// aqui ja defini 
+        currentDate.setMonth(currentDate.getMonth() +1); // aqui pego mes definido e diminuo
+        onMonthChange(`${currentDate.getFullYear()} - ${currentDate.getMonth() +1}`);
+    };
 
     return (
       <C.Container>
