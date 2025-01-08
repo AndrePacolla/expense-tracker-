@@ -27,9 +27,9 @@ export const Header = styled.div `
 
 export const Image = styled.div`
   margin-top: 12px; 
-  margin-left:45px;
-  width: 125px;
-  height: 125px;
+  margin-left:15px;
+  width: 115px;
+  height: 115px;
   background-image: url(${Logo});
   background-size:cover;
   background-position: center;
