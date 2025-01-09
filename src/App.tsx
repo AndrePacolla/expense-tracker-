@@ -37,8 +37,8 @@ const  App = () => {
       }
     }
 
-    setIncome(incomeCount);
     setExpense(expenseCount);
+    setIncome(incomeCount);
   },[filteredList]);
 
 
